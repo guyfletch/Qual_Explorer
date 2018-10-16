@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Qual_Explorer.QualPage" Title="Qual Explorer">
+    <ContentPage.Content>
+        <StackLayout>
+            <Button x:Name="BtnMethods" Clicked="Methods_OnClicked" Text="Methods"/>
+            <Button x:Name="BtnTechniques" Clicked="Techniques_OnClicked" Text="Techniques"/>
+            <Button x:Name="BtnAccreds" Clicked="Accreds_OnClicked" Text="Accreditation"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
