@@ -16,6 +16,7 @@ namespace Qual_Explorer
         {
             InitializeComponent();
             BindingContext = techniques;
+            AreaList.ItemTemplate = new DataTemplate(typeof(AreaCell));
         }
 
         async void TechniquesList_OnItemTapped(object sender, ItemTappedEventArgs e)

@@ -16,6 +16,7 @@ namespace Qual_Explorer
         {
             InitializeComponent();
             BindingContext = accreds;
+            AccredsList.ItemTemplate = new DataTemplate(typeof(MethodCell));
         }
 
         async void AccredsList_OnItemTapped(object sender, ItemTappedEventArgs e)

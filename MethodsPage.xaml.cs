@@ -17,6 +17,7 @@ namespace Qual_Explorer
             InitializeComponent();
             BindingContext = areas;
             Areas = areas;
+            AreaList.ItemTemplate = new DataTemplate(typeof(AreaCell));
         }
 
         public List<Area> Areas { get; set; }

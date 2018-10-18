@@ -4,6 +4,6 @@
              x:Class="Qual_Explorer.AccredsPage"
              Title="Accreditation">
     <ContentPage.Content>
-        <ListView x:Name="accredsList" ItemTapped="AccredsList_OnItemTapped" ItemsSource="{Binding .}"/>
+        <ListView x:Name="AccredsList" ItemTapped="AccredsList_OnItemTapped" ItemsSource="{Binding .}"/>
     </ContentPage.Content>
 </ContentPage>

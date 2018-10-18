@@ -4,6 +4,6 @@
              x:Class="Qual_Explorer.TechniquesPage"
              Title="Techniques">
     <ContentPage.Content>
-        <ListView x:Name="techniquesList" ItemTapped="TechniquesList_OnItemTapped" ItemsSource="{Binding .}"/>
+        <ListView x:Name="AreaList" ItemTapped="TechniquesList_OnItemTapped" ItemsSource="{Binding .}"/>
     </ContentPage.Content>
 </ContentPage>

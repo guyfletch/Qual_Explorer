@@ -18,6 +18,7 @@ namespace Qual_Explorer
             Title = area.AreaName;
             BindingContext = area.Methods;
             Technique = technique;
+            MethodsList.ItemTemplate = new DataTemplate(typeof(MethodCell));
         }
 
         public bool Technique { get; set; }

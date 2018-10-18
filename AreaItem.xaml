@@ -2,8 +2,10 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Qual_Explorer.AreaItem"
+             xmlns:local="clr-namespace:Qual_Explorer"
              Title="{Binding AreaName}">
     <ContentPage.Content>
-        <ListView x:Name="methodsList" ItemTapped="MethodsList_OnItemTapped" ItemsSource="{Binding .}"/>
+        <ListView x:Name="MethodsList" ItemTapped="MethodsList_OnItemTapped" ItemsSource="{Binding .}" ItemTemplate="local:methodCell">
+        </ListView>
     </ContentPage.Content>
 </ContentPage>
