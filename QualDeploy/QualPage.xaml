@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="QualDeploy.QualPage" Title="Qual Explorer">
+    <ContentPage.Content>
+        <StackLayout>
+            <Grid>
+                <Image Source="methods.png"/>
+                <Label VerticalOptions="LayoutOptions.Center" HorizontalOptions="LayoutOptions.Center">Methods</Label>
+                <Button Clicked="Methods_OnClicked" Opacity="0"/>
+            </Grid>
+            <Grid>
+                <Image Source="techniques.png"/>
+                <Label VerticalOptions="LayoutOptions.Center" HorizontalOptions="LayoutOptions.Center">Techniques</Label>
+                <Button Clicked="Techniques_OnClicked" Opacity="0"/>
+            </Grid>
+            <Grid>
+                <Image Source="accreditation.png"/>
+                <Label VerticalOptions="LayoutOptions.Center" HorizontalOptions="LayoutOptions.Center">Accreditation</Label>
+                <Button Clicked="Accreds_OnClicked" Opacity="0"/>
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

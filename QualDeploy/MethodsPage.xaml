@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="QualDeploy.MethodsPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Grid>
+                <Image Source="abstractimages.jpg"/>
+                <Label VerticalOptions="LayoutOptions.Center" HorizontalOptions="LayoutOptions.Center">Area 1</Label>
+                <Button Clicked="Methods_OnClicked" Opacity="0"/>
+            </Grid>
+            <Grid>
+                <Image Source="journey.jpg"/>
+                <Label VerticalOptions="LayoutOptions.Center" HorizontalOptions="LayoutOptions.Center">Area 2</Label>
+                <Button Clicked="Techniques_OnClicked" Opacity="0"/>
+            </Grid>
+            <Grid>
+                <Image Source="diary.jpg"/>
+                <Label VerticalOptions="LayoutOptions.Center" HorizontalOptions="LayoutOptions.Center">Area 3</Label>
+                <Button Clicked="Accreds_OnClicked" Opacity="0"/>
+            </Grid>
+        </StackLayout>
+        <!--<ListView x:Name="AreaList" ItemTapped="AreaList_OnItemTapped" ItemsSource="{Binding .}"/>-->
+    </ContentPage.Content>
+</ContentPage>
